@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<EnableDynamicLoading>true</EnableDynamicLoading>
+		<Version>1.0.0</Version>
+		<Authors>jayfunc</Authors>
+		<Company>$(Authors)</Company>
+		<Copyright>Copyright © 2026 jayfunc</Copyright>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="BetterLyrics.Sdk" Version="1.0.0" />
+	</ItemGroup>
+
+</Project>
